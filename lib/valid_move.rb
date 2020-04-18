@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if (index == 4)
+  if (board[index + 1] == "X")
     false
   elsif  (board[index + 1] == "O")
     false
